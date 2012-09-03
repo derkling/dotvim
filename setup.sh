@@ -1,7 +1,8 @@
 #!/bin/bash
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/gmarik/vundle.git ~/dotvim/bundle/vundle
 
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim ~/dotvim
+ln -s ~/dotvim/vimrc ~/.vimrc
+ln -s ~/dotvim/gvimrc ~/.gvimrc
 
 vim +BundleInstall +qall
