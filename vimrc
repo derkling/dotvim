@@ -59,6 +59,9 @@ let g:CommandTMatchWindowAtTop=1 " show window at top
 " Navigation
 Bundle "http://github.com/gmarik/vim-visual-star-search.git"
 
+" CScope
+Bundle "git://github.com/vim-scripts/cscope.vim.git"
+
 " LaTeX
 Bundle "http://github.com/vim-latex/vim-latex.github.com.git"
 
